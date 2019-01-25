@@ -366,3 +366,76 @@ Catalog Card
 	font-weight: bold;
 	cursor: pointer;
 }
+
+
+.order-hero-title{
+	padding-top: 40px;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: -0.02em;
+
+	color: #212121;
+}
+.order-status{
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 2px;
+	border: 1px solid;
+	width: 160px;
+	display: inline-block;
+	margin: 15px 0;
+}
+.status-progress{
+	color: #C1C1C1;
+	border-color: #C1C1C1;
+}
+.status-description{
+	padding-left: 20px;
+	font-weight: 300;
+	line-height: 13px;
+	font-size: 10px;
+
+	color: #757575;
+}
+.table-xs td, .table-xs th{
+	padding: 0;
+	font-weight: 300;
+	line-height: 18px;
+	font-size: 12px;
+}
+.pb-6{
+	padding-bottom: 85px;
+}
+
+.card-order-tabs .nav-tabs .nav-link{
+	background-image: none;
+	font-weight: bold;
+	line-height: 59px;
+	font-size: 28px;
+	letter-spacing: -0.02em;
+	padding: 0 5px;
+	text-transform: none;
+}
+.chat-message-body{
+	padding: 10px 20px;
+	border-radius: 6px;
+	-ms-flex-negative: 1 !important;
+	flex-shrink: 1 !important;
+}
+.chat-messages .media{
+	min-width: 180px;
+}
+.chat-message-right .chat-message-body{
+	background-color: #6E6E6E;
+	color: #fff;
+}
+.chat-message-left .chat-message-body{
+	background-color: #E0FEEF;
+}
+.chat-message-date{
+	text-align: right;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 9px;
+}
