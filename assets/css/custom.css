@@ -439,3 +439,6 @@ Catalog Card
 	line-height: normal;
 	font-size: 9px;
 }
+.custom-file-input:lang(ru) ~ .custom-file-label::after {
+	content: "Выбрать файл"
+}
