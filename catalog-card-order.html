@@ -357,10 +357,10 @@
 										</div>
 									</div>
 									<div class="tab-pane fade" id="tab-milestones">
-										<div id="smartwizard">
-											<ul>
+										<div id="smartwizard" class="sw-main sw-theme-default">
+											<ul class="nav nav-tabs step-anchor">
 												<li class="nav-item done">
-													<a href="#smartwizard-step-1" class="mb-3">
+													<a href="#milestone-step-1" data-toggle="tab" class="mb-3">
 														<span class="sw-done-icon ion ion-md-checkmark"></span>
 														<span class="sw-number">1</span>
 														<div class="text-muted small">ЭТАП 1</div>
@@ -368,43 +368,82 @@
 														<br>150 000 ₽
 													</a>
 												</li>
-												<li  class="nav-item active">
-													<a href="#smartwizard-step-2" class="mb-3">
+												<li  class="nav-item">
+													<a href="#milestone-step-2" data-toggle="tab" class="mb-3 active show">
 														<span class="sw-done-icon ion ion-md-checkmark"></span>
 														<span class="sw-number">1</span>
-														<div class="text-muted small">ЭТАП 1</div>
+														<div class="text-muted small">ЭТАП 2</div>
 														Ремонт ванной комнаты
 														<br>150 000 ₽
 													</a>
 												</li>
-												<li>
-													<a href="#smartwizard-step-3" class="mb-3">
+												<li class="nav-item">
+													<a href="#milestone-step-3" data-toggle="tab" class="mb-3">
 														<span class="sw-done-icon ion ion-md-checkmark"></span>
 														<span class="sw-number">1</span>
-														<div class="text-muted small">ЭТАП 1</div>
+														<div class="text-muted small">ЭТАП 3</div>
 														Ремонт ванной комнаты
 														<br>150 000 ₽
 													</a>
 												</li>
 											</ul>
-											<div class="mb-3">
-												<div id="smartwizard-step-1" class="card animated fadeIn">
+											<div class="mb-3 tab-content">
+												<div id="milestone-step-1" class="tab-pane fadeIn">
 													<div class="card-body">
-														Описание этапа 1
+														<div class="description">
+															Описание этапа 1
+															<br>Демонтажные работы и подготовка стен и пола. Замена канализационных и водопроводных стояков. Разводка и подключении электрики. Устройство гипсокартоновых ниш и коробов, укладка кафеля, подключение и монтаж всей сопутствующей техники и принадлежностей.
+														</div>
 													</div>
 												</div>
-												<div id="smartwizard-step-2" class="card animated fadeIn">
+												<div id="milestone-step-2" class="tab-pane fadeIn show active">
 													<div class="card-body">
-														Описание этапа 2
+														<div class="description">
+															Описание этапа 2
+															<br>Демонтажные работы и подготовка стен и пола. Замена канализационных и водопроводных стояков. Разводка и подключении электрики. Устройство гипсокартоновых ниш и коробов, укладка кафеля, подключение и монтаж всей сопутствующей техники и принадлежностей.
+														</div>
+														<div class="my-4">
+															<button class="btn btn-danger" data-toggle="modal" data-target="#modal-reason">Отказ</button>
+															<button class="btn btn-success">Принять</button>
+														</div>
 													</div>
 												</div>
-												<div id="smartwizard-step-3" class="card animated fadeIn">
+												<div id="milestone-step-3" class="tab-pane fadeIn">
 													<div class="card-body">
-														Описание этапа 3
+														<div class="description">
+															Описание этапа 3
+															<br>Демонтажные работы и подготовка стен и пола. Замена канализационных и водопроводных стояков. Разводка и подключении электрики. Устройство гипсокартоновых ниш и коробов, укладка кафеля, подключение и монтаж всей сопутствующей техники и принадлежностей.
+														</div>
+														<div class="my-4">
+															<button class="btn btn-danger" data-toggle="modal" data-target="#modal-reason">Отказ</button>
+															<button class="btn btn-success">Принять</button>
+														</div>
+													</div>
+												</div>
+												<div class="modal fade" id="modal-reason">
+													<div class="modal-dialog modal-sm">
+														<form class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title">
+																	Причина отказа
+																</h5>
+																<button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+															</div>
+															<div class="modal-body">
+																<div class="form-row">
+																	<div class="form-group col">
+																		<input type="text" class="form-control" placeholder="Введите причину">
+																	</div>
+																</div>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+																<button type="button" class="btn btn-danger">Отказ</button>
+															</div>
+														</form>
 													</div>
 												</div>
 											</div>
-										</div>
 										</div>
 									</div>
 									<div class="tab-pane fade" id="tab-docs">

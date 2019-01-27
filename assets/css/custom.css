@@ -442,3 +442,17 @@ Catalog Card
 .custom-file-input:lang(ru) ~ .custom-file-label::after {
 	content: "Выбрать файл"
 }
+.material-style .sw-theme-default .sw-number, .material-style .sw-theme-default .sw-icon{
+	color: #26B4FF;
+	border-color: #26B4FF;
+}
+.material-style .sw-theme-default .sw-done-icon {
+	border-color: #00CC66;
+	color: #00CC66;
+}
+.sw-theme-default .step-anchor li>a{
+	cursor: pointer;
+}
+.sw-theme-default .step-anchor li>a.active, .sw-theme-default .step-anchor li.done>a.active .sw-done-icon{
+	opacity: 1;
+}
