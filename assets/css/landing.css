@@ -72,6 +72,35 @@
     color: #212121;
     margin-bottom: 5px;
 }
+.footer .logo-text{
+    font-size: 7px;
+    color: #ABABAB;
+}
+.footer .copyright-text{
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 13px;
+    font-size: 9px;
+    color: #A3A3A3;
+}
+.footer .footer-menu{
+    padding-bottom: 40px;
+}
+.footer .footer-title{
+    padding-bottom: 17px;
+    line-height: 17px;
+    font-size: 11px;
+
+    color: #949494;
+}
+.footer .footer-link{
+    display: block;
+    font-weight: 300;
+    line-height: 17px;
+    font-size: 11px;
+
+    color: #949494;
+}
 @media only screen and (max-width: 767px){
     .slider-title{
         line-height: 60px;

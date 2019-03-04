@@ -157,7 +157,12 @@
 	margin-bottom: 0;
 	line-height: 25px;
 	font-size: 18px;
-	color: #555555;
+}
+.card a.title-link{
+	color: #555555!important;
+}
+.card a.title-link:hover, .card a.title-link:focus, .card a.title-link:active{
+	color: #00CC66!important;
 }
 .card p{
 	margin-bottom: 0;
