@@ -458,6 +458,17 @@
 											<div class="col-md-6 py-2">Не менее 1 ед.</div>
 										</div>
 										<div class="read-more py-2">Вся смета</div>
+										<form>
+											<div class="input-group my-3">
+												<label class="custom-file">
+													<input type="file" class="custom-file-input">
+													<span class="custom-file-label"></span>
+												</label>
+												<span class="input-group-append">
+													<button type="submit" class="btn btn-success">Загрузить</button>
+												</span>
+											</div>
+										</form>
 										<div class="row no-gutters">
 											<div class="col-md-6 col-lg-12 col-xl-6 p-1">
 												<div class="project-attachment ui-bordered p-2">
@@ -469,6 +480,7 @@
 														<div class="text-muted small">156KB</div>
 														<div>
 															<a href="javascript:void(0)">Скачать</a>
+															<a href="javascript:void(0)" class="text-danger">Удалить</a>
 														</div>
 													</div>
 												</div>
@@ -483,9 +495,37 @@
 														<div class="text-muted small">156KB</div>
 														<div>
 															<a href="javascript:void(0)">Скачать</a>
+															<a href="javascript:void(0)" class="text-danger">Удалить</a>
 														</div>
 													</div>
 												</div>
+											</div>
+										</div>
+										<div class="my-4">
+											<button class="btn btn-danger" data-toggle="modal" data-target="#modal-quote-reason">Отказ</button>
+											<button class="btn btn-success">Принять</button>
+										</div>
+										<div class="modal fade" id="modal-quote-reason">
+											<div class="modal-dialog modal-sm">
+												<form class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title">
+															Причина отказа
+														</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+													</div>
+													<div class="modal-body">
+														<div class="form-row">
+															<div class="form-group col">
+																<input type="text" class="form-control" placeholder="Введите причину">
+															</div>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+														<button type="button" class="btn btn-danger">Отказ</button>
+													</div>
+												</form>
 											</div>
 										</div>
 									</div>

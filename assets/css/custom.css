@@ -445,7 +445,10 @@ Catalog Card
 	font-size: 9px;
 }
 .custom-file-input:lang(ru) ~ .custom-file-label::after {
-	content: "Выбрать файл"
+	content: "Выбрать файл";
+	right: auto;
+	left: 0;
+	color: #bdbebd;
 }
 .material-style .sw-theme-default .sw-number, .material-style .sw-theme-default .sw-icon{
 	color: #26B4FF;
